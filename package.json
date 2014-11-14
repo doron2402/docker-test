@@ -1,0 +1,27 @@
+{
+  "name": "docker-test1",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/docker-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/docker-test/issues"
+  },
+  "homepage": "https://github.com/doron2402/docker-test",
+  "dependencies": {
+    "connect-redis": "1.4.5",
+    "express": "3.3.3",
+    "hiredis": "~0.1.15",
+    "nodemon": "^1.2.1",
+    "redis": "~0.12.1"
+  }
+}
